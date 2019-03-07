@@ -37,9 +37,9 @@ import java.util.ArrayList;
 public class BubbleChartActivity extends DemoBase implements OnSeekBarChangeListener,
         OnChartValueSelectedListener {
 
-    private BubbleChart chart;
-    private SeekBar seekBarX, seekBarY;
-    private TextView tvX, tvY;
+    protected BubbleChart chart;
+    protected SeekBar seekBarX, seekBarY;
+    protected TextView tvX, tvY;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
