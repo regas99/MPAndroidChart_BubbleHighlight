@@ -19,7 +19,6 @@ import com.xxmassdeveloper.mpchartexample.BarChartActivityMultiDataset;
 import com.xxmassdeveloper.mpchartexample.BarChartActivitySinus;
 import com.xxmassdeveloper.mpchartexample.BarChartPositiveNegative;
 import com.xxmassdeveloper.mpchartexample.BubbleChartActivity;
-import com.xxmassdeveloper.mpchartexample.BubbleChartHighlightActivity;
 import com.xxmassdeveloper.mpchartexample.CandleStickChartActivity;
 import com.xxmassdeveloper.mpchartexample.CombinedChartActivity;
 import com.xxmassdeveloper.mpchartexample.CubicLineChartActivity;
@@ -29,7 +28,6 @@ import com.xxmassdeveloper.mpchartexample.HalfPieChartActivity;
 import com.xxmassdeveloper.mpchartexample.HorizontalBarChartActivity;
 import com.xxmassdeveloper.mpchartexample.InvertedLineChartActivity;
 import com.xxmassdeveloper.mpchartexample.LineChartActivity1;
-import com.xxmassdeveloper.mpchartexample.LineChartActivity2;
 import com.xxmassdeveloper.mpchartexample.LineChartActivityColored;
 import com.xxmassdeveloper.mpchartexample.LineChartTime;
 import com.xxmassdeveloper.mpchartexample.ListViewBarChartActivity;
@@ -68,9 +66,6 @@ public class MainActivity extends AppCompatActivity implements OnItemClickListen
 
         // initialize the utilities
         Utils.init(this);
-
-        addExample("Show Bubble Highlight Problem");
-        addExample("Bubble Chart Demo", "Highlight values.", BubbleChartHighlightActivity.class);
 
         ////
         addExample("Line Charts");
